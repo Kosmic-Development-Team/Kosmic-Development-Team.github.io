@@ -4,7 +4,19 @@ body {
 }
 
 section {
-	padding-top: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+footer { 
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.copyright {
+	color: #bbb;
+	font-size: 12px;
+	text-align: center;
 }
 
 ::selection {
@@ -14,6 +26,7 @@ section {
 
 ::-webkit-scrollbar {
 	width: 14px;
+	background: #222;
 }
 
 ::-webkit-scrollbar-track {
@@ -21,12 +34,12 @@ section {
 }
 
 ::-webkit-scrollbar-thumb {
-  	background: #666;
+  	background: #333;
   	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  	background: #666;
+  	background: #333;
   	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.6);
 }
 
