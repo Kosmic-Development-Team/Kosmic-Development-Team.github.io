@@ -58,11 +58,11 @@ footer {
 }
 
 .text-muted {
-	color: #bbb;
+	color: #777;
 }
 
 .bg-dark {
-	background-color: #222;
+	background-color: #002;
 }
 
 .section-head {
@@ -123,5 +123,13 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 50px;
-	background-color: #0ff;
+	background-color: #fff;
+	-webkit-box-shadow: 10px 10px rgba(0,0,0,0.3);
+}
+
+.shadow-box {
+	background-color: #002;
+	-webkit-box-shadow: 10px 10px rgba(0,0,0,0.3);
+	margin-bottom: 100px;
+	padding: 36px;
 }
